@@ -1,0 +1,51 @@
+/* VARIABLES --------- */
+/* BASE 
+cd /applications/mamp/htdocs/adele.github.io
+
+file:///Applications/MAMP/htdocs/Adele.github.io/index.html
+-------------------*/
+body {
+  background: #f9e3ea;
+  text-align: center; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 20px;
+  flex-grow: 1;
+  padding: 1.5em 1em;
+  border: 10px solid #e3f9f2;
+  border-radius: 0.25em;
+  margin: 10px;
+  height: 400px;
+  width: 300px; }
+  .box h3 {
+    font-size: 30px;
+    font-family: "Ubuntu";
+    color: #27b689; }
+
+p {
+  font-size: 15px;
+  font-family: "Ubuntu";
+  color: gray; }
+
+/* HEADER */
+h2 {
+  font-family: "MegrimMedium";
+  font-size: 75px;
+  font-weight: bold;
+  color: #b62755; }
+
+button {
+  background-color: #f9e3ea;
+  color: #27b689; }
+  button:hover {
+    background-color: white;
+    opacity: 0.5; }
+
+/*# sourceMappingURL=style.css.map */

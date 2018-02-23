@@ -1,0 +1,71 @@
+/* BASE 
+cd /applications/mamp/htdocs/adele.github.io
+
+file:///Applications/MAMP/htdocs/Adele.github.io/index.html
+-------------------*/
+
+body {
+	background: $background-color;
+	text-align: center;
+
+}
+
+.container {
+ display: flex;
+  flex-wrap: wrap;
+	
+}
+
+.box {
+
+display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 20px;
+	flex-grow: 1;
+
+	padding: 1.5em 1em;
+	border: 10px solid $complement;
+	border-radius: 0.25em;
+	margin: 10px;
+	height:400px;
+	width: 300px;
+	h3 {
+		font-size: 30px;
+		font-family: $primary-font;
+		color: $complement-dark;
+
+	}
+	@media screen and (min-device-width: 521px) { 
+		
+    }
+}
+
+p {
+	font-size: 15px;
+	font-family: $primary-font;
+	color: gray;
+	}
+
+/* HEADER */
+h2 {
+	font-family: $header-font;
+	font-size: 75px;
+	font-weight: bold;
+	color: $font-color;
+}
+
+button {
+	background-color: $background-color;
+	color: $complement-dark;
+	&:hover {
+	background-color: $button-color;
+	opacity: 0.5;
+	}
+}
+
+
+
+
+
+

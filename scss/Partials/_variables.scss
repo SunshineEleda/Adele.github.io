@@ -1,0 +1,16 @@
+/* VARIABLES --------- */
+
+//Colors
+
+$background-color: #f9e3ea;
+$font-color: darken($background-color, 50%);
+$button-color: lighten($background-color, 50%);
+
+$complement: complement($background-color);
+$complement-dark: darken($complement, 50%); 
+$complement-light: lighten($complement, 50%);
+
+//Fonts
+
+$header-font: 'MegrimMedium';
+$primary-font: 'Ubuntu';
