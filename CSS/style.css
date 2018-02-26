@@ -28,6 +28,12 @@ body {
     font-size: 30px;
     font-family: "Ubuntu";
     color: #27b689; }
+  .box button {
+    background-color: #f9e3ea;
+    color: #27b689; }
+    .box button:hover {
+      background-color: white;
+      opacity: 0.5; }
 
 p {
   font-size: 15px;
@@ -41,11 +47,13 @@ h2 {
   font-weight: bold;
   color: #b62755; }
 
-button {
-  background-color: #f9e3ea;
-  color: #27b689; }
-  button:hover {
-    background-color: white;
-    opacity: 0.5; }
+/* NAV BAR*/
+#navBar {
+  background-color: #f9e3ea; }
+  #navBar a {
+    background-color: #f9e3ea;
+    border: none;
+    font-family: "MegrimMedium";
+    font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */

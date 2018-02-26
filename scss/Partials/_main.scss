@@ -18,7 +18,7 @@ body {
 
 .box {
 
-display: flex;
+    display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex-basis: 20px;
@@ -30,14 +30,23 @@ display: flex;
 	margin: 10px;
 	height:400px;
 	width: 300px;
-	h3 {
-		font-size: 30px;
-		font-family: $primary-font;
-		color: $complement-dark;
+		h3 {
+			font-size: 30px;
+			font-family: $primary-font;
+			color: $complement-dark;
 
-	}
+		}
 	@media screen and (min-device-width: 521px) { 
 		
+    }
+
+    button {
+	background-color: $background-color;
+	color: $complement-dark;
+	    &:hover {
+			background-color: $button-color;
+			opacity: 0.5;
+	    }
     }
 }
 
@@ -55,14 +64,21 @@ h2 {
 	color: $font-color;
 }
 
-button {
+
+/* NAV BAR*/
+
+#navBar {
+    
 	background-color: $background-color;
-	color: $complement-dark;
-	&:hover {
-	background-color: $button-color;
-	opacity: 0.5;
+	a {
+	  background-color: $background-color;
+	  border: none;
+	  font-family: $header-font;
+	  font-size: 20px;
 	}
+	
 }
+
 
 
 

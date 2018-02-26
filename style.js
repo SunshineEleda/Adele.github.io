@@ -3,8 +3,5 @@ var colours = [
   "#ED6F06", "#DCD50D", "#B6F008", "#1EDB86", "#F781F3"
 ];
 
-function randomColor {
-	var max = colours.length + 1;
-	return Math.floor(Math.random() * Math.floor(max));
-};
+
 
